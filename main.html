@@ -66,9 +66,7 @@
 	voicesDropdown.addEventListener('change',setVoice)
 	options.forEach(option => option.addEventListener('change',setOption))
 	speakButton.addEventListener('click',toggle);
-	stopButton.addEventListner('click',function(){
-		alert("Hello World!")
-	})
+	stopButton.addEventListener('click',tooggle(false))
 </script>
 
 </body>
